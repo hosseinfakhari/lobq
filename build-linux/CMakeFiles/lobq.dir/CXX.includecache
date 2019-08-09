@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kernel/CLionProjects/lobq/library.cpp
+library.h
+/mnt/c/Users/kernel/CLionProjects/lobq/library.h
+iterator
+-
+vector
+-
+
+/mnt/c/Users/kernel/CLionProjects/lobq/library.h
+queue
+-
+vector
+-
+ctime
+-
+

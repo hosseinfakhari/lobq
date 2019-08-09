@@ -1,0 +1,3 @@
+/mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles/lobq.dir
+/mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles/edit_cache.dir

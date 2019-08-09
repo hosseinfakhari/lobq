@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblobq.a  CMakeFiles/lobq.dir/library.cpp.o
+/usr/bin/ranlib liblobq.a
