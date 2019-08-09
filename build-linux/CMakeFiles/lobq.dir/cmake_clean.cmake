@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lobq.dir/library.cpp.o"
   "liblobq.pdb"
-  "liblobq.a"
+  "liblobq.so"
 )
 
 # Per-language clean rules from dependency scanning.

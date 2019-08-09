@@ -8,4 +8,4 @@ C:\Users\kernel\CLionProjects\lobq\library.cpp(71): warning C4190: 'fastQueue_ge
   C:\Users\kernel\CLionProjects\lobq\library.cpp(71): note: see declaration of 'row'
 C:\Users\kernel\CLionProjects\lobq\library.cpp(72): warning C4190: 'fastQueue_peek' has C-linkage specified, but returns UDT 'row' which is incompatible with C
   C:\Users\kernel\CLionProjects\lobq\library.cpp(72): note: see declaration of 'row'
-  lobq.vcxproj -> C:\Users\kernel\CLionProjects\lobq\build-win\Release\lobq.lib
+  lobq.vcxproj -> C:\Users\kernel\CLionProjects\lobq\build-win\Release\lobq.dll

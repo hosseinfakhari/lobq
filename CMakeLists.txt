@@ -3,4 +3,4 @@ project(lobq)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(lobq library.cpp library.h)
+add_library(lobq SHARED library.cpp library.h)
