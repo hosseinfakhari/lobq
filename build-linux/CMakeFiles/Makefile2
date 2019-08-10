@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/kernel/CLionProjects/lobq
+CMAKE_SOURCE_DIR = /media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/kernel/CLionProjects/lobq/build-linux
+CMAKE_BINARY_DIR = /media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/build-linux
 
 #=============================================================================
 # Target rules for target CMakeFiles/lobq.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/kernel/CLionProjects/lobq/build-linux
 CMakeFiles/lobq.dir/all:
 	$(MAKE) -f CMakeFiles/lobq.dir/build.make CMakeFiles/lobq.dir/depend
 	$(MAKE) -f CMakeFiles/lobq.dir/build.make CMakeFiles/lobq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles --progress-num=1,2 "Built target lobq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/build-linux/CMakeFiles --progress-num=1,2 "Built target lobq"
 .PHONY : CMakeFiles/lobq.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/lobq.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lobq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/build-linux/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lobq.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/build-linux/CMakeFiles 0
 .PHONY : CMakeFiles/lobq.dir/rule
 
 # Convenience name for target.

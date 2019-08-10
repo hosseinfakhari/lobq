@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/kernel/CLionProjects/lobq/library.cpp
+/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/library.cpp
 library.h
-/mnt/c/Users/kernel/CLionProjects/lobq/library.h
+/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/library.h
 iterator
 -
 vector
 -
+thread
+-
+mutex
+-
 
-/mnt/c/Users/kernel/CLionProjects/lobq/library.h
+/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/library.h
 queue
 -
 vector

@@ -1,6 +1,10 @@
 #include "library.h"
 #include <iterator>
 #include <vector>
+#include <thread>
+#include <mutex>
+
+std::mutex mtx;
 
 FastQueue::FastQueue(int size) {
     this->_size = size;
@@ -9,6 +13,7 @@ FastQueue::FastQueue(int size) {
 FastQueue::~FastQueue() = default;
 
 void FastQueue::append(char *time, float bid_pr[], float ask_pr[], float bid_vol[], float ask_vol[]) {
+    std::lock_guard<std::mutex> lock(mtx);
     row r;
     int yy, month, dd, hh, mm, ss;
     struct tm timBuf;
@@ -32,6 +37,7 @@ void FastQueue::append(char *time, float bid_pr[], float ask_pr[], float bid_vol
 }
 
 struct row FastQueue::peek(char *time) {
+    std::lock_guard<std::mutex> lock(mtx);
     time_t t;
     int yy, month, dd, hh, mm, ss;
     struct tm timBuf{};
@@ -54,6 +60,7 @@ struct row FastQueue::peek(char *time) {
 }
 
 struct row FastQueue::getItem(int index) {
+    std::lock_guard<std::mutex> lock(mtx);
     struct row _row{};
     if(index < this->_size && index >= 0){
         return this->_queue.at(index);
@@ -61,7 +68,8 @@ struct row FastQueue::getItem(int index) {
     return _row;
 }
 
-int FastQueue::len() {
+unsigned long FastQueue::len() {
+    std::lock_guard<std::mutex> lock(mtx);
     return this->_queue.size();
 }
 

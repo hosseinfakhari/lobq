@@ -23,7 +23,7 @@ public:
     void append(char *time, float bid_pr[], float ask_pr[], float bid_vol[], float ask_vol[]);
     struct row peek(char *time);
     row getItem(int index);
-    int len();
+    unsigned long len();
     row dequeue(void);
 };
 

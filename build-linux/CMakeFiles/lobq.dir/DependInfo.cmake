@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/kernel/CLionProjects/lobq/library.cpp" "/mnt/c/Users/kernel/CLionProjects/lobq/build-linux/CMakeFiles/lobq.dir/library.cpp.o"
+  "/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/library.cpp" "/media/kernel/B4EEFF1DEEFED718/projects/libfastqueue/lobq/build-linux/CMakeFiles/lobq.dir/library.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
